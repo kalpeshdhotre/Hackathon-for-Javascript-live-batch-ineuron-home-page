@@ -1,6 +1,6 @@
 About this home page
 - This website is built on `CSS` and `HTML` technolgy.
-- being a beiginer, i have taken help of some code expamle to include menu and button effetcs
+- being a beiginer, i have taken help of some code expamle to include menu and button effetcs which has small peice of Javascript code.
 - Employer's brand is always top attraction, therefore I have them moved scrolling bar containing thier logos to top of the page for immediate attention.
 - For simplicity shades of grey and light pastle colours are used.
 - Navigation menu kept simple - currently not fixed to top when we scroll down.
