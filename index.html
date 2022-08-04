@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ineuron Home Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <svg xmlns="http://www.w3.org/2000/svg"  hidden>
+        <symbol id="arrow" viewbox="0 0 16 16" >
+            <polyline points="4 6, 8 10, 12 6" stroke="#000" stroke-width="2" fill="transparent" stroke-linecap="round" />
+        </symbol>
+    </svg>    
+
+    <script>
+        const clearInput = () => {
+        const input = document.getElementsByTagName("input")[0];
+        input.value = "";
+        }
+        const clearBtn = document.getElementById("clear-btn");
+        clearBtn.addEventListener("click", clearInput);
+    </script>  
+</head>
+
+
+<body>
+    <div class="tech-slideshow">
+        <div class="mover-1"></div>
+        <div class="mover-2"></div>
+    </div>
+    
+    <div class="main">    
+        <div class="button-section">            
+            <img src="./images/ineuron-logo.png" alt="" class="company-logo">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What do you want to learn?">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            
+            <div class="frame">
+                <button class="custom-btn btn-12"><span>Click!</span><span>Sign in</span></button>
+            </div>
+
+            <div class="frane">
+                <button class="custom-btn btn-12"><span>Click!</span><span>Sign up</span></button>
+            </div>     
+        </div>    
+
+            
+        <nav id="site-navigation" class="site-navigation" aria-label="Clickable Menu Demonstration">
+            
+            <ul class="main-menu clicky-menu no-js">
+                <!-- <img src="./images/ineuron-logo.png" alt="" class="company-logo"> -->
+                <!-- <li>
+                    <a href="#">Home</a>
+                </li> -->
+                <li>
+                    <a href="#">
+                        Courses
+                        <svg aria-hidden="true" width="16" height="16">
+                            <use xlink:href="#arrow" />
+                        </svg>
+                    </a>
+                    <ul>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Block Chain</a></li>
+                        <li><a href="#">c++</a></li>
+                        <li><a href="#">Operating System</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        One Neuron
+                        <svg aria-hidden="true" width="16" height="16">
+                            <use xlink:href="#arrow" />
+                        </svg>
+                    </a>
+                    <ul>
+                        <li><a href="#">Nonprofits</a></li>
+                        <li><a href="#">Higher Education</a></li>
+                        <li><a href="#">Associations</a></li>
+                        <li><a href="#">Consultants</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Job Portal
+                        <svg aria-hidden="true" width="16" height="16">
+                            <use xlink:href="#arrow" />
+                        </svg>
+                    </a>
+                    <ul>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Internship Portal</a>
+                </li>
+                <li>
+                    <a href="#">Become and affiliate</a>
+                </li>
+                <li>
+                    <a href="#">Hall of fame</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Company</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Slide show section start here -->
+        
+        <!-- <h4 class="learnfrom">Learn from the best of industry</h4> -->
+        <h4 class="toplinetext">Digital entrepreneurs, Youtubers and content creators provide affordable courses across technolgies.</h4>
+        <section class="hexagon-gallery">
+            <div class="hex"><img src="./images/mentors/gaurav-sen-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/hitesh-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/krish-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/saksham-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/Mukesh-Otwani-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/mysirg-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/Souranghsu-Pal.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/sunny-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/telusko-square.png" alt="some"></div>
+            <div class="hex"><img src="./images/mentors/Kiran-Sahu-square.png" alt="some"></div>
+        </section>
+
+        
+        <div class="main-text">
+            <h1 class="quality">Highest in quality,</h1>
+            <h1 class="afforable">affordable in price</h1>            
+        </div>
+
+        <!--  -->
+
+        <div class="studentdata-tagline">
+            <h1 class="prehardwork-text">Pure Hardwork, No Shortcuts</h1>
+        </div>
+
+        <div class="studentdata">
+            <div class="studentsEn studentdata-card">
+                <img src="./images/Students.svg" alt="" class="student-image studentdata-img">
+                <h4><span>400000+</span><br>Students Enrolled</h4>
+            </div>
+
+            <div class="courses studentdata-card">
+                <img src="./images/Courses.svg" alt="" class="course-image studentdata-img">
+                <h4><span>400+</span><br>Different Courses</h4>
+            </div>
+
+            <div class="transtion studentdata-card">
+                <img src="./images/job-transition-svgrepo-com.svg" alt="" class="transition-image studentdata-img">
+                <h4><span>10000+</span><br>Succesful Transition</h4>
+            </div>
+        </div>
+        <!-- Hall Of fame section starts here -->
+        
+        <div class="hall-of-fame-tagline">
+            <h1 class="hall-of-fame-tagline-text">Hall of fame</h1>
+        </div>
+
+        <div class="hall-of-fame">
+            <div class="hall-of-fame-card">
+                <div class="imgbox">
+                    <img src="./images/HallOfFame/student1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Santhosh Kumar P.</h2>
+                    <p>One of the best things I ever did in my career path is to choose INEURON as my career buddy. I am so thankful to Sudhanshu Sir , Krish naik sir for introducing iNeuron platform which changed my learning patterns, practicing real life projects etc.</p>
+                </div>
+                
+            </div>
+            <div class="hall-of-fame-card">
+                <div class="imgbox">
+                    <img src="./images/HallOfFame/student2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Anurag Yadav</h2>
+                    <p>One of the best things I ever did in my career path is to choose INEURON as my career buddy. I am so thankful to Sudhanshu Sir , Krish naik sir for introducing iNeuron platform which changed my learning patterns, practicing real life projects etc.</p>
+                </div>
+                
+            </div>
+            <div class="hall-of-fame-card">
+                <div class="imgbox">
+                    <img src="./images/HallOfFame/student3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Subhadra Kumari Ram</h2>
+                    <p>One of the best things I ever did in my career path is to choose INEURON as my career buddy. I am so thankful to Sudhanshu Sir , Krish naik sir for introducing iNeuron platform which changed my learning patterns, practicing real life projects etc.</p>
+                </div>
+                
+            </div>
+            <div class="hall-of-fame-card">
+                <div class="imgbox">
+                    <img src="./images/HallOfFame/student4.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Taeef Najib</h2>
+                    <p>One of the best things I ever did in my career path is to choose INEURON as my career buddy. I am so thankful to Sudhanshu Sir , Krish naik sir for introducing iNeuron platform which changed my learning patterns, practicing real life projects etc.</p>
+                </div>                
+            </div>
+        </div>
+
+        <div class="hall-of-fame-button">
+            <button class="hall-of-button">Show All</button>
+        </div>
+
+        <!-- START Live programs  -->
+        <div class="live-program-headline">
+            <h1 class="headline">Live Programs</h1>                
+            <h1 class="sub-headline">Get your program with live "instructor led" learning.</h1>
+        </div>
+        
+        
+        <!-- <div class="live-programs">                      -->
+            <div class="live-program">
+                <div class="program-card">
+                    <img src="./images/program_1.jpg" alt="">
+                    <div class="program-card-info">
+                        <h2 class="program-title">Digital Marketting</h2>
+                        <h2 class="program-mentor">by: Amresh Bharti</h2>
+                        <h2 class="program-fees">₹ 11,000</h2>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="./images/program_2.jpg" alt="">
+                    <div class="program-card-info">
+                        <h2 class="program-title">DSA with Fang</h2>
+                        <h2 class="program-mentor">by: Anurag Tiwari</h2>
+                        <h2 class="program-fees">₹ 4,000</h2>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <img src="./images/program_3.jpg" alt="">
+                    <div class="program-card-info">
+                        <h2 class="program-title">Advance Facebook Marketting</h2>
+                        <h2 class="program-mentor">by: Amresh Bharti</h2>
+                        <h2 class="program-fees">₹ 3,000</h2>
+                    </div> 
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- END Live programs  -->
+
+        <!-- START Footer part here -->
+
+        <div class="footer">
+            <div class="logo-company-footer">
+                <img src="./images/ineuron-logo.png" alt="">
+            </div>
+            <div class="company-links">
+                <ul class="company-link">
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>Hack-A-Thon</li>
+                    <li>FAQs</li>
+                    <li>Job guarantee</li>
+                    <li>Job assistance</li>
+                    <li>Privacy policy</li>
+                    <li>Terms and conditions</li>
+                </ul>
+            </div>
+        </div>
+        <div class="iso-image">
+            <img src="./images/iso-9001-2015.svg" alt="" class="iso-image-img">
+            <h1 class="iso-9001">ISO 9001</h1>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
